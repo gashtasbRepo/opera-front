@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'shabnam';
+    src: url('./Shabnam.woff') format('woff'),
+         url('./Shabnam.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'shabnamThin';
+    src: url('./Shabnam-Thin.woff') format('woff'),
+         url('./Shabnam-Thin.ttf') format('truetype');
+}

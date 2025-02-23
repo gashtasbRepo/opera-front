@@ -1,0 +1,60 @@
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f9f9f9; /* Use a light shade if needed for consistency */
+
+  h1 {
+    margin-bottom: 20px;
+    color: #8e44ad; /* Match the dashboard's color scheme */
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    input {
+      margin-bottom: 15px;
+      padding: 12px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 14px;
+      transition: all 0.3s ease;
+
+      &:focus {
+        outline: none;
+        border-color: #8e44ad; /* Match the focus color with your theme */
+        box-shadow: 0 0 5px rgba(142, 68, 173, 0.5);
+      }
+    }
+
+    button {
+      padding: 12px;
+      font-size: 16px;
+      background-color: #8e44ad; /* Purple tone for consistency */
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background-color: #732d91; /* Darker shade of purple on hover */
+      }
+    }
+
+    .error-message {
+      color: red;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  }
+}

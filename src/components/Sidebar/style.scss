@@ -1,0 +1,27 @@
+.SidebarItem{
+    margin-bottom: 20px;
+
+    img{
+        background-color: #BD5EC2;
+        border-radius: 10px;
+        padding: 6px;
+    }
+
+    .SidebarItemText{
+        font-size: 20px;
+        font-family: 'ShabnamThin';
+        margin-right: 15px;
+        color: #6C6C6C;
+        background-color: #fff;
+        transition: background-color 0.5s ease;
+        width: 100%;
+        text-align: end;
+        padding: 5px 10px;
+        border-radius: 10px;
+    }
+
+    .SideBarItemTextActive{
+        background-color: #bd5ec238;
+        color: #BD5EC2;
+    }
+}
