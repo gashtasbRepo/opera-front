@@ -20,9 +20,9 @@ const Layout: React.FC = () => {
 
   useEffect(() => {
     const token = localStorage.getItem('access_token');
-    if (!token && location.pathname !== '/login') {
-      navigate('/login');
-    }
+    // if (!token && location.pathname !== '/login') {
+    //   navigate('/login');
+    // }
   }, [navigate, location.pathname]);
 
   const isLoginPage = location.pathname === '/login';
